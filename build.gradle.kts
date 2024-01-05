@@ -20,7 +20,10 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 
 	/*jdbc 연결*/
-	implementation("org.springframework.boot:spring-boot-starter-jdbc")
+//	implementation("org.springframework.boot:spring-boot-starter-jdbc")
+
+	/*jpa*/
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	runtimeOnly("com.h2database:h2")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
